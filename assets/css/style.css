@@ -1,9 +1,15 @@
-h1 {
+nav {
+
+}		
+
+
+
+
+		h1 {
+			font-family: Georgia;
 			text-align: center;
-			margin-bottom: 0;
-			margin-top: 0;
-			color: white;
-			background: black;
+			clear: right;
+			text-decoration-color: white;
 		}
 
 		img {margin-right: 20px;
@@ -30,14 +36,34 @@ h1 {
 		}
 
 		.floatright {
+					font: -webkit-control;
 					float: right;
-					padding-right: 50px;
-					margin: auto;
+					padding-bottom: 25px;
+					padding-right: 200px;
+					/*margin: auto;*/
 		}
-		.wraper {
+		.nametab{
+				float: left;
 				margin-right: 0;
-				width: 100%;
-				margin-left: 0;
-				background: #F8F8F8;
-				padding-bottom: 50px;
+				width: 300px;
+				height: 30px;
+				margin-left: 100px;
+				background: #4aaaa5;
+				padding: 25px;
+				height: 30px;
+				text-decoration-color: white;
+				background: #4aaaa5;
 		}
+
+.navigation {
+				font-family: Arial;
+				text-decoration-color: #777777;
+				padding: 25px 100px;
+}
+
+.content {
+			border-top: 5px;
+			border-color: #dddddd;
+			background-image: url("greyzz_@2X.png");
+
+}
