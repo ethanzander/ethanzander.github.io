@@ -1,0 +1,43 @@
+h1 {
+			text-align: center;
+			margin-bottom: 0;
+			margin-top: 0;
+			color: white;
+			background: black;
+		}
+
+		img {margin-right: 20px;
+			float: left;
+		}
+
+		p {
+			margin-left: 20px;
+			float: right;
+
+		}
+		div {
+			margin-left: 0;
+			margin-right: 0;
+			float: right;
+			padding: 0;
+		}
+
+
+		.floatleft {
+					float: left;
+					padding-left: 50px;
+					margin: auto;
+		}
+
+		.floatright {
+					float: right;
+					padding-right: 50px;
+					margin: auto;
+		}
+		.wraper {
+				margin-right: 0;
+				width: 100%;
+				margin-left: 0;
+				background: #F8F8F8;
+				padding-bottom: 50px;
+		}
