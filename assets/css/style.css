@@ -2,6 +2,24 @@ nav {
 
 }		
 
+body {
+		background: url(../greybackground.jpg) ;
+		margin: 0 0;
+}
+
+header {
+		background-color: white;
+		width: 100%;
+		height: 80px;
+		border-bottom: solid;
+		border-color: #777777;
+}
+
+form {
+		padding: 10px;
+
+}
+
 hr {
 	display: none;
 	color: gray;
@@ -47,6 +65,7 @@ h2 {
 					background-color: white;
 					border-color: #dddddd;
 					border: solid 1px;
+
 					width: 650px;
 		}
 
@@ -63,6 +82,7 @@ h2 {
 					border-color: #dddddd;
 					border: solid 1px;
 					text-align: left;
+
 		}
 		.nametab{
 				position: fixed;
@@ -98,14 +118,13 @@ h2 {
 
 .content {
 			display: block;
-			background: url(../greybackground.jpg) ;
+			
 			background-size: 100% auto;
 			background-position: center;
 			clear: both;
 			width: 100%;
 			overflow: auto;
-			border-top: solid;
-			border-color: #777777;
+			
 			float: left;
 			width: 100%;
 			overflow: auto;
@@ -131,5 +150,6 @@ h2 {
 			background-color: #666666;
 			border-top: solid 10px #4aaaa5;
 			overflow: auto;
+			clear: both;
 
 }
